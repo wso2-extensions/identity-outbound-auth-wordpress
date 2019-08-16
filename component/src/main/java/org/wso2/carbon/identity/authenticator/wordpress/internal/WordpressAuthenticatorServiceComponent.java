@@ -32,7 +32,7 @@ import java.util.Hashtable;
  */
 public class WordpressAuthenticatorServiceComponent {
 
-    private static Log log = LogFactory.getLog(WordpressAuthenticatorServiceComponent.class);
+    private static final Log log = LogFactory.getLog(WordpressAuthenticatorServiceComponent.class);
 
     protected void activate(ComponentContext ctxt) {
         try {

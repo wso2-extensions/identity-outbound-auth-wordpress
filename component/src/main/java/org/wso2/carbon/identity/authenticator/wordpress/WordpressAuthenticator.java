@@ -51,7 +51,7 @@ import java.util.Map;
  */
 public class WordpressAuthenticator extends OpenIDConnectAuthenticator implements FederatedApplicationAuthenticator {
 
-    private static Log log = LogFactory.getLog(WordpressAuthenticator.class);
+    private static final Log log = LogFactory.getLog(WordpressAuthenticator.class);
 
     /**
      * Get Wordpress authorization endpoint.
