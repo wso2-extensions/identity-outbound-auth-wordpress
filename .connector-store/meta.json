@@ -1,0 +1,17 @@
+{
+    "name": "Wordpress",
+    "owner": "WSO2",
+    "category": "Federated authenticator",
+    "documentationUrl": "https://docs.wso2.com/display/ISCONNECTORS/Wordpress+Authenticator",
+    "description": "The Wordpress authenticator allows you to authenticate users using Wordpress through the WSO2 Identity Server.",
+    "status": "Active",
+    "labels": ["SocialLogin"],
+    "releases": [
+        {
+            "tagName": "1.0.0",
+            "products": [
+                "IS 6.0.0"
+            ]
+        }
+    ]
+}
